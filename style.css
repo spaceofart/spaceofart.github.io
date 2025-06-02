@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+a:focus,
+button:focus {
+  outline: 2px solid var(--bs-primary);
+  outline-offset: 2px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+[data-bs-theme="dark"] {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}
+.theme-toggle-btn {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--bs-dark);
+}
+[data-bs-theme="dark"] .theme-toggle-btn {
+  color: var(--bs-light);
+}
+.theme-toggle-btn:hover {
+  color: var(--bs-primary);
+}
+.theme-toggle-btn svg {
+  width: 24px;
+  height: 24px;
+}
+.sun-icon,
+.moon-icon {
+  transition: opacity 0.3s;
+}
+.sun-icon.d-none,
+.moon-icon.d-none {
+  opacity: 0;
+  position: absolute;
+}
+.logo svg {
+  width: 76px;
+  height: 27px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+strong,
+b {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 700;
+
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
